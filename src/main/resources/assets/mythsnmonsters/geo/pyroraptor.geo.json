@@ -1,0 +1,86 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Pyroraptor",
+					"pivot": [0, 0, -2]
+				},
+				{
+					"name": "Body",
+					"parent": "Pyroraptor",
+					"pivot": [-0.375, 7.5, 0],
+					"cubes": [
+						{"origin": [-5.875, 5, -2.5], "size": [11, 5, 5], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Pyroraptor",
+					"pivot": [6.625, 11.2, 0],
+					"cubes": [
+						{"origin": [4.125, 7, -1.5], "size": [3, 3, 3], "uv": [27, 30]},
+						{"origin": [4.125, 10, -1.5], "size": [4, 3, 3], "uv": [0, 27]},
+						{"origin": [8.125, 10, -1.5], "size": [4, 2, 3], "uv": [30, 24]},
+						{"origin": [2.125, 10, -1.5], "size": [7, 5, 0], "inflate": 0.01, "uv": [15, 27]},
+						{"origin": [2.125, 10, 1.5], "size": [7, 5, 0], "inflate": 0.01, "uv": [15, 27]}
+					]
+				},
+				{
+					"name": "Tail",
+					"parent": "Pyroraptor",
+					"pivot": [-15.375, 8.25, 0],
+					"cubes": [
+						{"origin": [-21.875, 8, -1.5], "size": [16, 2, 3], "uv": [0, 10]},
+						{"origin": [-27.875, 3, 0], "size": [22, 9, 0], "inflate": 0.01, "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Leg1",
+					"parent": "Pyroraptor",
+					"pivot": [-2.875, 4.25, 0],
+					"cubes": [
+						{"origin": [-4.875, 4, -3.5], "size": [3, 5, 1], "uv": [26, 37]},
+						{"origin": [-3.875, 0, 1.5], "size": [3, 4, 3], "uv": [39, 10]}
+					]
+				},
+				{
+					"name": "Leg2",
+					"parent": "Pyroraptor",
+					"pivot": [-2.875, 4.25, 0],
+					"cubes": [
+						{"origin": [-4.875, 4, 2.5], "size": [3, 5, 1], "uv": [0, 34]},
+						{"origin": [-3.875, 0, -4.5], "size": [3, 4, 3], "uv": [35, 37]}
+					]
+				},
+				{
+					"name": "Arm1",
+					"parent": "Pyroraptor",
+					"pivot": [2.375, 4.75, 3],
+					"cubes": [
+						{"origin": [2.125, 4, 2.5], "size": [2, 3, 1], "uv": [16, 40]},
+						{"origin": [-0.875, 1, 3], "size": [5, 6, 0], "inflate": 0.01, "uv": [53, 21]}
+					]
+				},
+				{
+					"name": "Arm2",
+					"parent": "Pyroraptor",
+					"pivot": [2.375, 4.75, -3],
+					"cubes": [
+						{"origin": [2.125, 4, -3.5], "size": [2, 3, 1], "uv": [9, 39]},
+						{"origin": [-0.875, 1, -3], "size": [5, 6, 0], "inflate": 0.01, "uv": [6, 50]}
+					]
+				}
+			]
+		}
+	]
+}
