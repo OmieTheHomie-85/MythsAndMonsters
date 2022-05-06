@@ -15,7 +15,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, MythsNMonsters.MODID);
 
     public static final RegistryObject<ForgeSpawnEggItem> PYRORAPTOR_SPAWN_EGG = ITEMS.register("pyroraptor_spawn_egg",
-            () -> new ForgeSpawnEggItem(ModEnitityTypes.PYRORAPTOR, 0x948e8d, 0x3b3635,
+            () -> new ForgeSpawnEggItem(ModEnitityTypes.PYRORAPTOR, 0xDC143C, 0xFAD02C,
                     new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
     public static void register(IEventBus eventBus) {

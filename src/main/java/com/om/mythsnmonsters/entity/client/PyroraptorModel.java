@@ -18,6 +18,6 @@ public class PyroraptorModel extends AnimatedGeoModel<PyroraptorEntity> {
 
     @Override
     public ResourceLocation getAnimationFileLocation(PyroraptorEntity animatable) {
-        return new ResourceLocation(MythsNMonsters.MODID, "animations/raccoon.animation.json");
+        return new ResourceLocation(MythsNMonsters.MODID, "animations/pyroraptor.animation.json");
     }
 }
