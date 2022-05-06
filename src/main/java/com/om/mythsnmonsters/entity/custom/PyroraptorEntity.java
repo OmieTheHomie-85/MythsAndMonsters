@@ -80,6 +80,8 @@ public class PyroraptorEntity extends Animal implements IAnimatable {
             event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.pyroraptor.walk", true));
             return PlayState.CONTINUE;
         }
+
+        event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.pyroraptor.idle", true));
         return PlayState.CONTINUE;
 
     }
