@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.pyroraptor.walk": {
+		"animation.model.pyroraptor_walk": {
 			"loop": true,
 			"animation_length": 0.83333,
 			"bones": {
@@ -140,25 +140,25 @@
 				}
 			}
 		},
-		"animation.pyroraptor.idle": {
+		"animation.model.pyroraptor_idle": {
 			"loop": true,
-			"animation_length": 1.5,
+			"animation_length": 2,
 			"bones": {
 				"Body": {
 					"rotation": {
 						"0.0": {
 							"vector": [0, 0, 0]
 						},
-						"0.3333": {
-							"vector": [0, 0, -1]
+						"0.5": {
+							"vector": [0, 0, -2]
 						},
-						"0.75": {
+						"1.0": {
 							"vector": [0, 0, 0]
 						},
-						"1.125": {
-							"vector": [0, 0, 1]
-						},
 						"1.5": {
+							"vector": [0, 0, 2]
+						},
+						"2.0": {
 							"vector": [0, 0, 0]
 						}
 					}
@@ -168,16 +168,16 @@
 						"0.0": {
 							"vector": [0, 0, 0]
 						},
-						"0.375": {
-							"vector": [0, 0, -1]
+						"0.5": {
+							"vector": [0, 0, -2]
 						},
-						"0.75": {
+						"1.0": {
 							"vector": [0, 0, 0]
 						},
-						"1.125": {
-							"vector": [0, 0, 1]
-						},
 						"1.5": {
+							"vector": [0, 0, 2]
+						},
+						"2.0": {
 							"vector": [0, 0, 0]
 						}
 					}
@@ -187,16 +187,16 @@
 						"0.0": {
 							"vector": [0, 0, 0]
 						},
-						"0.375": {
-							"vector": [0, 0, 1]
+						"0.5": {
+							"vector": [0, 0, 2]
 						},
-						"0.75": {
+						"1.0": {
 							"vector": [0, 0, 0]
 						},
-						"1.125": {
-							"vector": [0, 0, -1]
-						},
 						"1.5": {
+							"vector": [0, 0, -2]
+						},
+						"2.0": {
 							"vector": [0, 0, 0]
 						}
 					}
@@ -206,16 +206,16 @@
 						"0.0": {
 							"vector": [0, 0, 0]
 						},
-						"0.375": {
-							"vector": [0, 0, -1]
+						"0.5": {
+							"vector": [0, 0, -2]
 						},
-						"0.75": {
+						"1.0": {
 							"vector": [0, 0, 0]
 						},
-						"1.125": {
-							"vector": [0, 0, 1]
-						},
 						"1.5": {
+							"vector": [0, 0, 2]
+						},
+						"2.0": {
 							"vector": [0, 0, 0]
 						}
 					}
